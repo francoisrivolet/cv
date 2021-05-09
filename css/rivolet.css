@@ -164,14 +164,38 @@ body {
   }
 
   /* icones competences */
-  
+
   .skill-icon {
     background-color: #fff;
     color: #1D809F;
     height: 7rem;
     width: 7rem;
     display: block;
-    line-height: 7.5rem;
-    font-size: 2.25rem;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    line-height: 6.8rem;
+    /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+
+  .skill-title{
+    text-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+
+  /* .skill-icon img{
+    padding-bottom: 20px;
+  } */
+
+
+  /* icones centre d'interet */
+  .hobby-icon {
+    background-color: #fff;
+    color: #1D809F;
+    height: 11rem;
+    width: 11rem;
+    display: block;
+    line-height: 10.8rem;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+
+  .hobby-icon:hover{
+    background-color: lightslategray;
   }
