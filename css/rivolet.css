@@ -6,7 +6,13 @@ html {
 
 body {
   font-family: 'Source Sans Pro';
-  background-color: #f8f9fa!important;
+}
+
+section {
+  padding: 6rem 0;
+}
+.section-heading{
+  margin-bottom: 5rem;
 }
 
 /* scroll-to-top */
@@ -46,7 +52,7 @@ body {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/fuji-1.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/fuji-2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,6 +209,9 @@ body {
 
 
   /* Portfolio */
+  #portfolio{
+    background-color: #f8f9fa!important;
+  }
 
   #portfolio .portfolio-item {
     max-width: 25rem;
@@ -249,9 +258,20 @@ body {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
-
-
   /* Experiences */
+  #ib{
+    color:#e35815;
+  }
+  #stef{
+    color: #0c5ca7;
+  }
+  #adventiel{
+    color: #531055;
+  }
+  #klaxoon{
+    color:#10b8ef;
+  }
+
   .timeline {
     position: relative;
     padding: 0;
@@ -309,8 +329,13 @@ body {
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
+    background-color: #fff;
+  }
+  .timeline > li:last-child .timeline-image
+  {
     background-color: #fed136;
   }
+
   .timeline > li .timeline-image h4 {
     font-size: 10px;
     line-height: 14px;
@@ -418,4 +443,18 @@ body {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px;
     }
+  }
+
+  /* Contact */
+
+  #message{
+    height: 100%;
+  }
+
+  section#contact {
+    background-color: #212529;
+    color:white;
+    background-image: url("../img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
   }
