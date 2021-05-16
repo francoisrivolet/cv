@@ -76,6 +76,7 @@ section {
   }
   
   /* Side Menu */
+
   #sidebar-wrapper {
     position: fixed;
     z-index: 2;
@@ -167,7 +168,12 @@ section {
       border-radius: 50%;
       background: #fff;
       border: 6px solid #fff;
-      width: 252px;
+      width: 350px;
+  }
+  @media (max-width: 768px){
+    .img-profil{
+      width: 250px;
+    }
   }
 
   /* icones competences */
